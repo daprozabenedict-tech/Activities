@@ -5,7 +5,7 @@ public class EXPERT_ATMTransactionAuthorizer {
     public static void main(String[] args){
 
         // information of this dude
-        String name = "Mike";
+        String name = "Aldous";
         int PIN = 12345;
         double balance = 100000;
         double withdraw = 50000;
@@ -15,7 +15,7 @@ public class EXPERT_ATMTransactionAuthorizer {
         double fee = 0;
         double total = 0;
 
-        if(name == "Mike"){
+        if(name == "Aldous"){
             if(PIN == 12345){
 
                 // Checks your balance to assign your tier
