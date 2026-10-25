@@ -1,13 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Week_5;
 
-/**
- *
- * @author RAZOR
- */
 public class BASIC_FavoriteThingsArray {
-    
+    public static void main(String[] args){
+        String[] favorite = {"WebNovels", "Drawing", "Games", "Money", "Knowledge"};
+
+        for(int i = 0; i < favorite.length; i++){
+            System.out.println("Favorite thing # " + (i + 1) + ": " + favorite[i]);
+        }
+        System.out.println("String length: " + favorite.length);
+
+    }
 }
